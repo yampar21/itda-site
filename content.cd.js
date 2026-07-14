@@ -8,7 +8,7 @@
 window.ITDA_SETS = window.ITDA_SETS || {};
 
 window.ITDA_SETS.cd = {
-  meta: { version: "cd v1.2", author: "Claude (CD pass)", date: "2026-07-13" },
+  meta: { version: "cd v1.4 (notion links)", author: "Claude (CD pass)", date: "2026-07-13" },
 
   /* ── S1 히어로 ──
      헤드라인은 브랜드 자산이라 유지. 서브만 갈아끼움:
@@ -18,7 +18,7 @@ window.ITDA_SETS.cd = {
     sub: "완벽할 때까지 기다리지 않습니다.\n오늘 만들고, 내일 고칩니다 — 잇다.",
     mascotSay: "또 뭐 만들어요?",
     media: "https://images.pexels.com/photos/30505255/pexels-photo-30505255.jpeg?w=1600&h=900&fit=crop",
-    mascotImg: ""
+    mascotImg: "🐶"
   },
 
   /* ── S2 스테이트먼트 ──
@@ -65,13 +65,13 @@ window.ITDA_SETS.cd = {
     items: [
       { no: "01 — (교육)", title: "교육",
         body: "AI · 커피 · 다도 클래스. 배우고 끝이 아니라, 오늘 바로 써먹는 수업.",
-        icon: "🎓", link: "" },   // ← 노션 교육 페이지 URL
+        icon: "🎓", link: "https://thirstybear.notion.site/39a00511008381f9b97be0556fea6454" },
       { no: "02 — (커뮤니티)", title: "커뮤니티",
         body: "일산살롱 · OWOA · 일렁일렁. 만드는 사람들이 서로를 발견하는 판.",
-        icon: "🤝", link: "" },   // ← 노션 커뮤니티 페이지 URL
+        icon: "🤝", link: "https://thirstybear.notion.site/39a005110083812cb1fffd599582b85f" },
       { no: "03 — (프로젝트)", title: "프로젝트",
         body: "13상회와 로컬 프로젝트. 동네에서 직접 벌이는 일들.",
-        icon: "🛠️", link: "" }    // ← 노션 프로젝트 페이지 URL
+        icon: "🛠️", link: "" }    // ← 13상회 노션 페이지 생성 후 연결
     ]
   },
 
@@ -110,11 +110,11 @@ window.ITDA_SETS.cd = {
       "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A110.png"
     ],
     list: [
-      { title: "일산살롱 1기",   cat: "코호트", result: "파운딩 멤버 모집", link: "" },
-      { title: "OWOA 1기",       cat: "빌더",   result: "실패 모집 중",     link: "" },
+      { title: "일산살롱 1기",   cat: "코호트", result: "파운딩 멤버 모집", link: "https://thirstybear.notion.site/39a00511008381e38354eabbff1741d3" },
+      { title: "OWOA 1기",       cat: "빌더",   result: "실패 모집 중",     link: "https://thirstybear.notion.site/39a005110083812cb1fffd599582b85f" },
       { title: "13상회 #1",      cat: "축제",   result: "올드13 · 예정",    link: "" },
-      { title: "일렁일렁",       cat: "러닝",   result: "매주 일렁이는 중", link: "" },
-      { title: "클래스",         cat: "교육",   result: "AI · 커피 · 다도", link: "" }
+      { title: "일렁일렁",       cat: "러닝",   result: "매주 일렁이는 중", link: "https://thirstybear.notion.site/39a005110083813686acdc701206c1c3" },
+      { title: "클래스",         cat: "교육",   result: "AI · 커피 · 다도", link: "https://thirstybear.notion.site/39a00511008381e5a0b8f1292e580840" }
     ]
   },
 
@@ -125,7 +125,7 @@ window.ITDA_SETS.cd = {
     ctaLines: ["뭐라도", "만들*래요?*"],
     note: "거창한 계획은 없어도 됩니다. 만들고 싶은 마음이면 충분합니다.",
     bg: "https://images.pexels.com/photos/930402/pexels-photo-930402.jpeg?w=1600&h=900&fit=crop",
-    mascots: ["", ""],
+    mascots: ["🐶", "🔨"],
     address: [
       "잇다 — 일산에서 뭐라도 만드는 사람들",
       "고양시 ○○ / 올드13",
@@ -133,7 +133,7 @@ window.ITDA_SETS.cd = {
     ],
     links: [
       { label: "Instagram", url: "#" },
-      { label: "Notion",    url: "#" },
+      { label: "Notion",    url: "https://thirstybear.notion.site/39a005110083814faf31c91c9f074205" },
       { label: "Podcast",   url: "#" }
     ],
     copyright: "© 2026 ITDA. All Rights Reserved."
