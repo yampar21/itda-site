@@ -8,7 +8,7 @@
 window.ITDA_SETS = window.ITDA_SETS || {};
 
 window.ITDA_SETS.cd = {
-  meta: { version: "cd v1.1 (temp photos)", author: "Claude (CD pass)", date: "2026-07-13" },
+  meta: { version: "cd v1.2", author: "Claude (CD pass)", date: "2026-07-13" },
 
   /* ── S1 히어로 ──
      헤드라인은 브랜드 자산이라 유지. 서브만 갈아끼움:
@@ -45,10 +45,10 @@ window.ITDA_SETS.cd = {
     heading: "일단,\n벌입니다",
     badge: "Our Programs",
     items: [
-      { title: "일산살롱",        tag: "팟캐스트 · 13주 코호트",  img: "https://images.pexels.com/photos/33923596/pexels-photo-33923596.jpeg?w=1200&h=900&fit=crop", link: "" },
-      { title: "어떻게든 (OWOA)", tag: "AI 빌더 · 매주 금요일",   img: "https://images.pexels.com/photos/3182795/pexels-photo-3182795.jpeg?w=1200&h=900&fit=crop", link: "" },
-      { title: "일렁일렁",        tag: "러닝크루 · 호수공원",     img: "https://images.pexels.com/photos/8381747/pexels-photo-8381747.jpeg?w=1200&h=900&fit=crop", link: "" },
-      { title: "13상회",          tag: "분기 축제 · 올드13",      img: "https://images.pexels.com/photos/12100413/pexels-photo-12100413.jpeg?w=1200&h=900&fit=crop", link: "" },
+      { title: "일산살롱",        tag: "팟캐스트 · 13주 코호트",  img: "https://images.pexels.com/photos/27616685/pexels-photo-27616685.jpeg?w=1200&h=900&fit=crop", link: "" },
+      { title: "어떻게든 (OWOA)", tag: "AI 빌더 · 매주 금요일",   img: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?w=1200&h=900&fit=crop", link: "" },
+      { title: "일렁일렁",        tag: "러닝크루 · 호수공원",     img: "https://images.pexels.com/photos/325790/pexels-photo-325790.jpeg?w=1200&h=900&fit=crop", link: "" },
+      { title: "13상회",          tag: "분기 축제 · 올드13",      img: "https://images.pexels.com/photos/752484/pexels-photo-752484.jpeg?w=1200&h=900&fit=crop", link: "" },
       { title: "클래스",          tag: "AI · 커피 · 다도",        img: "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A14.png", link: "" }
     ]
   },
@@ -60,15 +60,18 @@ window.ITDA_SETS.cd = {
   /* ── S6 카드 ──
      제목 유지, 본문을 숫자·장면이 있는 문장으로. */
   cards: {
-    heading: "잇다가 일하는 법",
-    eyebrow: "(How)",
+    heading: "잇다의 세 갈래",
+    eyebrow: "(교육 · 커뮤니티 · 프로젝트)",
     items: [
-      { no: "01 — (시작)", title: "실패해도 시작",
-        body: "계획 30일 말고, 계획 30분에 실행 오늘. 어설퍼도 시작한 쪽이 이깁니다.", icon: "" },
-      { no: "02 — (도구)", title: "배우지 말고 쓰기",
-        body: "강의만 듣다 끝나는 AI는 그만. 오늘 내 일에 바로 꽂아 씁니다.", icon: "" },
-      { no: "03 — (증명)", title: "결과로 말하기",
-        body: "말은 짧게, 데모는 길게. 분기마다 13상회에서 직접 꺼내 보입니다.", icon: "" }
+      { no: "01 — (교육)", title: "교육",
+        body: "AI · 커피 · 다도 클래스. 배우고 끝이 아니라, 오늘 바로 써먹는 수업.",
+        icon: "🎓", link: "" },   // ← 노션 교육 페이지 URL
+      { no: "02 — (커뮤니티)", title: "커뮤니티",
+        body: "일산살롱 · OWOA · 일렁일렁. 만드는 사람들이 서로를 발견하는 판.",
+        icon: "🤝", link: "" },   // ← 노션 커뮤니티 페이지 URL
+      { no: "03 — (프로젝트)", title: "프로젝트",
+        body: "13상회와 로컬 프로젝트. 동네에서 직접 벌이는 일들.",
+        icon: "🛠️", link: "" }    // ← 노션 프로젝트 페이지 URL
     ]
   },
 
@@ -89,11 +92,11 @@ window.ITDA_SETS.cd = {
     imgs: [
       "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A11.png",
       "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A16.png",
-      "https://images.pexels.com/photos/6953923/pexels-photo-6953923.jpeg?w=800&h=1067&fit=crop",
+      "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?w=800&h=1067&fit=crop",
       "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A12.png",
-      "https://images.pexels.com/photos/27616685/pexels-photo-27616685.jpeg?w=800&h=1067&fit=crop",
+      "https://images.pexels.com/photos/12100413/pexels-photo-12100413.jpeg?w=800&h=1067&fit=crop",
       "https://raw.githubusercontent.com/yampar21/itda-site/main/img/%EC%BB%A4%ED%94%BC%EA%B5%90%EC%9C%A111.png",
-      "https://images.pexels.com/photos/14551563/pexels-photo-14551563.jpeg?w=800&h=1067&fit=crop"
+      "https://images.pexels.com/photos/10563412/pexels-photo-10563412.jpeg?w=800&h=1067&fit=crop"
     ]
   },
 
